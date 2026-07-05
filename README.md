@@ -12,12 +12,12 @@ for interactive dashboard development.
 - What drives profit margin across the business?
 
 ## Key Findings
-- **Furniture has a critical margin problem** — $742K in sales but only 2.5% profit margin
-- **Discounts above 20% are loss-making** — statistically proven via two-sample t-test (p < 0.0001)
+- **Furniture has a critical margin problem** - $742K in sales but only 2.5% profit margin
+- **Discounts above 20% are loss-making** - statistically proven via two-sample t-test (p < 0.0001)
 - **Every 10% increase in discount rate loses $20.89 in profit** on average
-- **West region is most profitable** — $108K profit vs Central's $39K on similar volumes
-- **Sales grew 51% from 2014 to 2017** — consistent year-on-year growth trend
-- **Peak sales month is March** — likely driven by business budget cycles
+- **West region is most profitable** - $108K profit vs Central's $39K on similar volumes
+- **Sales grew 51% from 2014 to 2017** - consistent year-on-year growth trend
+- **Peak sales month is March** - likely driven by business budget cycles
 
 ## Tools & Technologies
 | Tool | Usage |
@@ -30,21 +30,21 @@ for interactive dashboard development.
 | Excel | Source data |
 
 ## Statistical Analysis
-### Hypothesis Test — Discount Impact on Profit
+### Hypothesis Test - Discount Impact on Profit
 - **H0:** Discounts have no significant impact on profit
 - **H1:** Discounts significantly reduce profit
 - **Result:** t-statistic = -15.88, p-value ≈ 0.000
-- **Conclusion:** Reject null hypothesis — discounts significantly reduce profit
+- **Conclusion:** Reject null hypothesis - discounts significantly reduce profit
 
-### Linear Regression — Discount vs Profit
+### Linear Regression - Discount vs Profit
 - Discount coefficient: -208.86 (every unit increase in discount = $208 loss)
 - Key insight: Linear model insufficient alone — profit driven by multiple variables
 
 ## Dashboard
-![Superstore Sales Dashboard](Visuals/dashboard.png)
+![Superstore Sales Dashboard](SuperstoreDashboard.png)
 
 ## Project Structure
-
+```
 superstore-sales-analysis/
 │
 ├── Data/
@@ -60,7 +60,7 @@ superstore-sales-analysis/
 │   └── dashboard.png
 │
 └── README.md
-
+```
 
 ## How To Run
 1. Clone the repository
